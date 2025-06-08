@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "728710639837",
+    "project_id": "mednova-7bff7",
+    "storage_bucket": "mednova-7bff7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728710639837:android:113dde8dd0331f693beb34",
+        "android_client_info": {
+          "package_name": "com.example.mednova"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB73TkcwHviFSsSLQtiB-4SN7zDa1euUOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
