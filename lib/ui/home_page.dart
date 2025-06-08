@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import 'chat_page.dart';
+import 'jitsi_video_call_page.dart';
 
 class HomePage extends StatelessWidget {
   final _authService = AuthService();
@@ -33,6 +34,18 @@ class HomePage extends StatelessWidget {
                 );
               },
               child: const Text('Open AI Chat'),
+            ),
+            const SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const VideoCallPage(channelId: 'mednova_room'),
+                  ),
+                );
+              },
+              child: const Text('Start Video Call'),
             ),
           ],
         ),
